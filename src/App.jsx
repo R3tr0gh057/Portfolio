@@ -1,6 +1,7 @@
 import LoadingPage from "./loadingPage";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { NavBar } from "./components/NavBar";
 
 function App() {
   useGSAP(()=>{
@@ -29,12 +30,22 @@ function App() {
     t1.to(".wrapper", {
       opacity: 0,
       duration: 1,
-      delay: 2,
-    })
+    });
+    t1.fromTo(".navbar", {
+      x: 100,
+      opacity: 0,
+    },
+    {
+      x: 0,
+      opacity: 1.5,
+      ease: "power2.out",
+      delay: 0.5,
+    });
   });
   return (
     <>
       <LoadingPage />
+      <NavBar/>
       <div className="h-screen bg-black flex items-center justify-center">
         <h1 className="text-white text-8xl font-bold">Portfolio</h1>
       </div>
