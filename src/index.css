@@ -20,4 +20,82 @@ body {
     z-index: 9999;
   }
 
-  
+.img-1 {
+    background-image: url("./assets/LibraryManagememtSystem.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 100px;
+}
+
+.img-2 {
+    background-image: url("./assets/LMS-nosql.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 100px;
+}
+
+.img-3 {
+    background-image: url("./assets/LumosAI.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 100px;
+}
+
+.img-4 {
+    background-image: url("./assets/Celeste_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 100px;
+}
+
+.img-5 {
+    background-image: url("./assets/dedsecBF.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 100px;
+}
+
+.img-6 {
+    background-image: url("./assets/bagley.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 100px;
+}
+
+.img-7 {
+    background-image: url("./assets/bagley.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 100px;
+}
+
+.piece1 {
+    background-position: 0 0px;
+}
+
+.piece2 {
+    background-position: 0 -100px;
+}
+
+.piece3 {
+    background-position: 0 -200px;
+}
+
+.piece4 {
+    background-position: 0 -300px;
+}
+
+.piece5 {
+    background-position: 0 -400px;
+}
+
+.piece6 {
+    background-position: 0 -500px;
+}

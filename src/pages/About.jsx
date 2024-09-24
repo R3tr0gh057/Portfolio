@@ -110,7 +110,7 @@ const About = () => {
               I have over four years of both formal and informal experience in the IT industry, specializing in a diverse range of technologies. My expertise spans across various programming languages, including C, C++, Java, Python, JavaScript, Bash, and Ruby. I’m proficient in frameworks such as <span className="react">React</span>, Angular, Svelte, and Flask, as well as pentesting tools like Metasploit and BurpSuite.
             </p>
             <p className="text-xl mt-4">
-              I am currently working as an intern at the Kristu Jayanti Software Development Center, where I am implementing a custom kiosk system for a smart library.
+              With a strong foundation in both backend and frontend development, I am dedicated to building robust and scalable systems while ensuring an exceptional user experience. My experience encompasses not only creating efficient APIs and server-side logic but also designing intuitive and visually appealing interfaces.
             </p>
           </div>
         </div>
@@ -121,15 +121,18 @@ const About = () => {
         <div className="second-section w-[70%] mx-auto my-20 flex items-center justify-center text-white">
 
           <div className="project-details w-2/3 text-left px-10">
-            <h2 className="text-4xl font-bold">Project Kiosk</h2>
+            <h2 className="text-4xl font-bold">Current <span className="bg-[#f77b4a]">STATUS</span> </h2>
             <p className="text-xl mt-4">
-              In this project, I’m working on a custom kiosk system that integrates hardware like RFID, ATmega328P, and ESP32 with API-driven software.
+              Currently, I am working as an intern at the Software Development Center (SDC) at Kristu Jayanti College, where I am actively involved in the development of a custom kiosk system for a smart library. This role allows me to leverage my skills in backend implementation, API integration, and Flask development while working closely with technologies like RFID and ATmega328P. I am responsible for designing and coding various components of the system, ensuring that the hardware and software interact seamlessly for an efficient user experience.
+            </p>
+            <p className="text-xl mt-4">
+              Additionally, I am gaining insights into project management and collaboration within a team setting, which is enriching my professional growth and preparing me for future challenges in the software development field.
             </p>
           </div>
 
           <div className="about-photo w-30 flex justify-center">
             <img
-              src="/assets/images/me.jpg"
+              src="/assets/images/sdc.jpg"
               alt="Project Image"
               className="w-full h-auto rounded-full shadow-lg object-cover"
             />
@@ -137,25 +140,25 @@ const About = () => {
         </div>
 
         {/* Tool Line */}
-        <div class="tool-section w-[70%] text-white">
-          <div class="flex items-center mb-8">
-            <span class="text-gray-300 font-bold">About</span>
-            <div class="flex-grow h-px bg-gray-700 ml-4"></div>
+        <div className="tool-section w-[70%] text-white">
+          <div className="flex items-center mb-8">
+            <span className="text-gray-300 font-bold">About</span>
+            <div className="flex-grow h-px bg-gray-700 ml-4"></div>
           </div>
 
 
           <div className="tool-container w-[92%] flex space-x-80 justify-items-center">
-            <h2 class="text-6xl font-bold mb-4">Toolbox</h2>
-              <div class="text-4xl leading-loose flex flex-wrap gap-x-4 gap-y-2">
-                <span>HTML</span> <span class="text-red-400">•</span>
-                <span>CSS</span> <span class="text-red-400">•</span>
-                <span>JS</span> <span class="text-red-400">•</span>
-                <span>C</span> <span class="text-red-400">•</span>
-                <span>C++</span> <span class="text-red-400">•</span>
-                <span>PYTHON</span> <span class="text-red-400">•</span>
-                <span>JAVA</span><span class="text-red-400">•</span>
-                <span>RUBY</span> <span class="text-red-400">•</span>
-                <span>BURPSUITE</span> <span class="text-red-400">•</span>
+            <h2 className="text-6xl font-bold mb-4">Toolbox</h2>
+              <div className="text-4xl leading-loose flex flex-wrap gap-x-4 gap-y-2">
+                <span>HTML</span> <span className="text-red-400">•</span>
+                <span>CSS</span> <span className="text-red-400">•</span>
+                <span>JS</span> <span className="text-red-400">•</span>
+                <span>C</span> <span className="text-red-400">•</span>
+                <span>C++</span> <span className="text-red-400">•</span>
+                <span>PYTHON</span> <span className="text-red-400">•</span>
+                <span>JAVA</span><span className="text-red-400">•</span>
+                <span>RUBY</span> <span className="text-red-400">•</span>
+                <span>BURPSUITE</span> <span className="text-red-400">•</span>
                 <span>CANVA</span>
               </div>
           </div>
@@ -166,36 +169,36 @@ const About = () => {
         {/* Skill Line */}
         <div className="skill-section w-[70%] text-white">
           
-          <div class="flex items-center mb-8 text-white">
-            <span class="text-gray-300 font-bold">About</span>
-            <div class="flex-grow h-px bg-gray-700 ml-4"></div>
+          <div className="flex items-center mb-8 text-white">
+            <span className="text-gray-300 font-bold">About</span>
+            <div className="flex-grow h-px bg-gray-700 ml-4"></div>
           </div>
 
 
           <div className="skills-container flex items-center space-x-80 text-white">
             <h2 className="text-6xl font-bold mb-12">Skills</h2>
-            <div className="text-xl grid grid-cols-2 gap-1">
+            <div className="text-xl grid grid-cols-2 w-[100%]">
               
               <div className="block-1 space-y-10">
                 {/* Product Design Block */}
                 <div>
-                  <h3 className="text-4xl font-bold mb-4">Product Design</h3>
+                  <h3 className="text-4xl font-bold mb-4">Backend Development</h3>
                   <ul className="space-y-2">
-                    <li>UX/UI Design</li>
-                    <li>Prototyping</li>
-                    <li>Design System</li>
-                    <li>Developer Handoff</li>
+                    <li>Server Creation</li>
+                    <li>Server Maintenace</li>
+                    <li>API Integration</li>
+                    <li>Database implementation</li>
                   </ul>
                 </div>
 
                 {/* Brand Design Block */}
                 <div>
-                  <h3 className="text-4xl font-bold mb-4">Brand Design</h3>
+                  <h3 className="text-4xl font-bold mb-4">Frontend Development</h3>
                   <ul className="space-y-2">
-                    <li>Logo Design</li>
-                    <li>Brand Guidelines</li>
-                    <li>Presentations</li>
-                    <li>Digital & Print Assets</li>
+                    <li>Web Designing</li>
+                    <li>Digital Arts</li>
+                    <li>Canva Designing</li>
+                    <li>UI/UX Designing</li>
                   </ul>
                 </div>
               </div>
@@ -203,22 +206,23 @@ const About = () => {
               <div className="block-2 space-y-10">
                 {/* Motion Design Block */}
                 <div>
-                  <h3 className="text-4xl font-bold mb-4">Motion Design</h3>
+                  <h3 className="text-4xl font-bold mb-4">Hardware Development</h3>
                   <ul className="space-y-2">
-                    <li>UI Animations</li>
-                    <li>Logo Animations</li>
-                    <li>Illustration Animations</li>
-                    <li>Explainer Videos</li>
+                    <li>PCB designing</li>
+                    <li>Circuit Designing </li>
+                    <li>Datasheet Illustration</li>
+                    <li>Electronics implementation</li>
                   </ul>
                 </div>
 
                 {/* Web Development Block */}
                 <div>
-                  <h3 className="text-4xl font-bold mb-4">Web Development</h3>
+                  <h3 className="text-4xl font-bold mb-4">Languages</h3>
                   <ul className="space-y-2">
-                    <li>Front-End Development</li>
-                    <li>WordPress Theme</li>
-                    <li>SEO</li>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Malayalam</li>
+                    <li>Tamil</li>
                   </ul>
                 </div>
               </div>

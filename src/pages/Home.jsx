@@ -103,11 +103,7 @@ function Home() {
               <p> <span class="text-green-400 text-2xl">•</span> Available for part time work</p>
             </div>
           </div>
-
-          {/* <div className="main-content-center">
-            <img className="main-content-center-backimg h-10" src="../assets/images/halo.png" alt="" />
-            <img className="main-content-center-image h-90 rounded-full" src="../assets/images/e.avif" alt="main-image" />
-          </div> */}
+          
           <HaloComponent />
 
           
@@ -119,67 +115,28 @@ function Home() {
         </div>
 
         <div className="home-content w-[70%] text-white text-4xl">
-          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo beatae quis, eveniet natus illo veniam quibusdam libero totam voluptates nostrum incidunt quaerat hic cumque. Consequuntur et nobis facilis quo!</p> */}
           <h1 className="h_title  relative w-full text-center text-[15vw] font-light uppercase leading-[90%] lg:text-[8.7vw] ">
           <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
             <span className=" inline-block  translate-y-full pb-1.5 pt-6 will-change-transform ">
-              You
+              Programming is an ART
             </span>
           </span>
-          <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-            <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform [&>svg]:w-[11vw] lg:[&>svg]:w-[6.9vw]">
-              Bruh
-            </span>
-          </span>
+          <br />
           <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
             <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-              Can
-            </span>
-          </span>
-          <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-            <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-              Only
-            </span>
-          </span>
-          <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-            <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-              Build
-            </span>
-          </span>
-          <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-            <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-              Brands
-            </span>
-          </span>
-        </h1>
-        <h1 className="h_title relative  w-full text-center text-[15vw] font-light uppercase leading-[90%] lg:text-[8.7vw] ">
-          <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-            <span className=" inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-              People
-            </span>
-          </span>
-          <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-            <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-              Love
+              It's Not Just About
             </span>
           </span>
         </h1>
         <h1 className="h_title relative w-full text-center text-[15vw] font-light uppercase leading-[90%] lg:text-[8.7vw] ">
           <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
             <span className="font_aeonik inline-block  translate-y-full pb-1.5  pt-6    font-medium leading-[81%] text-orange will-change-transform ">
-              By Loving
+              Writing Code
             </span>
           </span>
           <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
             <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-              Your
-            </span>
-          </span>
-        </h1>
-        <h1 className="h_title relative flex w-full flex-col items-center justify-center text-center text-[15vw]  font-light uppercase leading-[90%] lg:flex-row lg:text-[8.7vw] ">
-          <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-            <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-              Audience
+              It's About Creating
             </span>
           </span>
         </h1>
