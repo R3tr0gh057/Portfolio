@@ -104,7 +104,7 @@ const About = () => {
 
           <div className="about-details w-2/3 text-left px-10 text-white">
             <h2 className="name text-4xl font-bold cursor-pointer transition-transform">
-              Making robust <span className="hightligh font-bold bg-white text-black">BACKEND</span> with the best looking <span className="highlight font-bold bg-[#973bec] text-white">FRONTEND</span>
+              Making robust <span className="hightligh font-bold bg-white text-black">BACKEND</span> with the best looking <span className="highlight font-bold bg-[#f77b4a] text-white">FRONTEND</span>
             </h2>
             <p className="text-xl mt-4">
               I have over four years of both formal and informal experience in the IT industry, specializing in a diverse range of technologies. My expertise spans across various programming languages, including C, C++, Java, Python, JavaScript, Bash, and Ruby. I’m proficient in frameworks such as <span className="react">React</span>, Angular, Svelte, and Flask, as well as pentesting tools like Metasploit and BurpSuite.
