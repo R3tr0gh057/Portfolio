@@ -12,13 +12,13 @@ export default function Footer() {
 
         {/* Right Section: Social Media Links */}
         <div className="flex space-x-6 text-xl">
-          <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/r3tr0gh057" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i> GitHub
           </a>
           <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i> LinkedIn
           </a>
-          <a href="https://instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/chillhopsenpai" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i> Instagram
           </a>
         </div>

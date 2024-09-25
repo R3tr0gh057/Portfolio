@@ -9,31 +9,31 @@ function Home() {
   useEffect(() => {
     let t1 = gsap.timeline();
     // Animate the boxes
-    t1.to(".box", {
-      scale: 0,
-      y: 60,
-      rotate: 400,
-      duration: 1,
-      repeat: 1,
-      yoyo: true,
-      delay: 0.5,
-      stagger: {
-        amount: 1.5,
-        from: "start",
-        grid: [3, 3],
-      },
-    });
+    // t1.to(".box", {
+    //   scale: 0,
+    //   y: 60,
+    //   rotate: 400,
+    //   duration: 1,
+    //   repeat: 1,
+    //   yoyo: true,
+    //   delay: 0.5,
+    //   stagger: {
+    //     amount: 1.5,
+    //     from: "start",
+    //     grid: [3, 3],
+    //   },
+    // });
 
-    // Animate the container and wrapper
-    t1.to(".container", {
-      rotate: "-405deg",
-      scale: 0,
-      duration: 1,
-    });
-    t1.to(".wrapper", {
-      opacity: 0,
-      duration: 1,
-    });
+    // // Animate the container and wrapper
+    // t1.to(".container", {
+    //   rotate: "-405deg",
+    //   scale: 0,
+    //   duration: 1,
+    // });
+    // t1.to(".wrapper", {
+    //   opacity: 0,
+    //   duration: 1,
+    // });
 
     t1.fromTo(
       ".navbar",
